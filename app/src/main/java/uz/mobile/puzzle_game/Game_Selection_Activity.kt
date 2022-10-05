@@ -8,6 +8,6 @@ class Game_Selection_Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game_selection)
 
-        var a = 40
+
     }
 }

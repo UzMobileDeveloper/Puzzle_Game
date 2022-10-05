@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Puzzle_Game">
         <activity
+            android:name=".Game_Selection_Activity"
+            android:exported="false" />
+        <activity
             android:name=".Splash_Screen"
             android:exported="true">
             <intent-filter>

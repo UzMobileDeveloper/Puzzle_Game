@@ -4,6 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#1976D2"
     tools:context=".Splash_Screen">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_marginTop="@dimen/_150sdp"
+        android:id="@+id/puzzle_gif"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:lottie_rawRes="@raw/puzzle_animation"
+        app:lottie_autoPlay="true"
+        app:lottie_speed="1"
+        app:lottie_loop="true"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    app:layout_constraintTop_toBottomOf="@id/puzzle_gif">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_30sdp"
+        android:id="@+id/game_text"
+        android:text="@string/puzzle"
+        android:layout_margin="@dimen/_5sdp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toLeftOf="@id/puzzle_text"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/puzzle_gif"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_30sdp"
+        android:id="@+id/puzzle_text"
+        android:text="@string/game"
+        app:layout_constraintLeft_toRightOf="@id/game_text"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/puzzle_gif"
+    />
+</LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

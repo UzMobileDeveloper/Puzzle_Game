@@ -3,7 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/Puzzle_Game/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1345" />
+        <entry key="..\:/AndroidStudioProjects/Puzzle_Game/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.156" />
+        <entry key="..\:/AndroidStudioProjects/Puzzle_Game/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1345" />
+        <entry key="..\:/AndroidStudioProjects/Puzzle_Game/app/src/main/res/layout/activity_game_selection.xml" value="0.20102564102564102" />
+        <entry key="..\:/AndroidStudioProjects/Puzzle_Game/app/src/main/res/layout/activity_image_puzzle.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/Puzzle_Game/app/src/main/res/layout/activity_number_puzzle.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/Puzzle_Game/app/src/main/res/layout/activity_selection_game.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/Puzzle_Game/app/src/main/res/layout/activity_settings.xml" value="0.20102564102564102" />
+        <entry key="..\:/AndroidStudioProjects/Puzzle_Game/app/src/main/res/layout/activity_slide_puzzle.xml" value="0.19010416666666666" />
         <entry key="..\:/AndroidStudioProjects/Puzzle_Game/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/Puzzle_Game/app/src/main/res/layout/lose_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/Puzzle_Game/app/src/main/res/layout/music_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/Puzzle_Game/app/src/main/res/layout/priority_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/Puzzle_Game/app/src/main/res/layout/settings_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/Puzzle_Game/app/src/main/res/layout/winning_dialog.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

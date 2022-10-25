@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="uz.mobile.puzzle_game">
 
     <application
@@ -9,6 +10,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Puzzle_Game">
+        <activity
+            android:name=".Slide_Puzzle"
+            android:exported="false" />
+        <activity
+            android:name=".Image_Puzzle"
+            android:exported="false" />
+        <activity
+            android:name=".Number_Puzzle"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".Selection_Game"
+            android:exported="false" />
         <activity
             android:name=".Game_Selection_Activity"
             android:exported="false" />
@@ -21,6 +37,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name=".MyService"
+            android:stopWithTask="true"
+            tools:ignore="Instantiatable" />
     </application>
 
 </manifest>
